@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 /*
  * Пользователем с клавиатуры вводится целое число N > 0.
@@ -25,15 +26,30 @@ namespace Task03
         public static void RunTask03()
         {
             int N = int.Parse(Console.ReadLine());
-            
-            // TODO: инициализируйте массив и передайте его в соответствующий метод
 
+            // TODO: инициализируйте массив и передайте его в соответствующий метод
+            int[] a = new int[N];
+            FillArray(ref a);
             // TODO: выведите массив на экран
+            Console.WriteLine(arrayString(a));
         }
 
-        static void FillArray()
+        static void FillArray(ref int[] arr)
         {
-            // TODO: заполните массив соответствующими данными
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = 2 * i + 1;
+            }
+        }
+
+        static public string arrayString(int[] a)
+        {
+            StringBuilder strb = new StringBuilder();
+            for (int i = 0; i < a.Length; i++)
+            {
+                strb.Append($"{a[i]} ");
+            }
+            return strb.ToString();
         }
     }
 }

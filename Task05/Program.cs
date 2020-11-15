@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 /*
  * Пользователем с клавиатуры вводится целое число N > 1.
@@ -31,8 +32,45 @@ namespace Task05
             int N = int.Parse(Console.ReadLine());
 
             // TODO: объявите массив и вызовите метод для его заполнения
-            
+            int[] arr = new int[N];
+            FillArray(ref arr);
+            ReverseArray(ref arr);
+
             // TODO: выведите массив на экран в требуемом порядке
+            Console.WriteLine(arrayString(arr));
+        }
+
+        static public void FillArray(ref int[] arr)
+        {
+            arr[0] = 1;
+            if(arr.Length > 1)
+            {
+                arr[1] = 1;
+            }
+            for (int i = 2; i < arr.Length; i++)
+            {
+                arr[i] = arr[i - 1] + arr[i - 2];
+            }
+        }
+
+        static public void ReverseArray(ref int[] arr)
+        {
+            for (int i = 0; i < arr.Length / 2; i++)
+            {
+                int change = arr[i];
+                arr[i] = arr[arr.Length - 1 - i];
+                arr[arr.Length - 1 - i] = change;
+            }
+        }
+
+        static public string arrayString(int[] a)
+        {
+            StringBuilder strb = new StringBuilder();
+            for (int i = 0; i < a.Length; i++)
+            {
+                strb.Append($"{a[i]} ");
+            }
+            return strb.ToString();
         }
     }
 }

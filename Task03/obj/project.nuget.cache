@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zxjyAGGgPsZj9G9nr0kes788eYKoWi2sAOooqT+ZgDIQPI8BN0DHgq3ziRh/uj+18WGBd0hRPd7eeipM/ezC+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sophia\\Source\\Repos\\01module-05seminar-arrays-jijumbeck\\Task03\\Task03.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sophia\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
