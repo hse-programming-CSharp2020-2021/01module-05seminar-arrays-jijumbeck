@@ -1,0 +1,12 @@
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\bin\Debug\netcoreapp3.1\Task05.exe
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\bin\Debug\netcoreapp3.1\Task05.deps.json
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\bin\Debug\netcoreapp3.1\Task05.runtimeconfig.json
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\bin\Debug\netcoreapp3.1\Task05.runtimeconfig.dev.json
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\bin\Debug\netcoreapp3.1\Task05.dll
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\bin\Debug\netcoreapp3.1\Task05.pdb
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\obj\Debug\netcoreapp3.1\Task05.AssemblyInfoInputs.cache
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\obj\Debug\netcoreapp3.1\Task05.AssemblyInfo.cs
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\obj\Debug\netcoreapp3.1\Task05.csproj.CoreCompileInputs.cache
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\obj\Debug\netcoreapp3.1\Task05.dll
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\obj\Debug\netcoreapp3.1\Task05.pdb
+C:\Users\Sophia\Source\Repos\01module-05seminar-arrays-jijumbeck\Task05\obj\Debug\netcoreapp3.1\Task05.genruntimeconfig.cache

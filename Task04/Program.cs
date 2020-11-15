@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 /*
  * Пользователем с клавиатуры вводятся целые числа N > 1, A и D.
@@ -30,15 +31,34 @@ namespace Task04
 
             int A, D;
             // TODO: считайте необходимые значения A и D
-            
+            A = int.Parse(Console.ReadLine());
+            D = int.Parse(Console.ReadLine());
+
             // TODO: инициализируйте массив и передайте его в соответствующий метод вместе с необходимыми значениями 
-            
+            int[] a = new int[N];
+            FillArray(ref a, A, D);
+
             // TODO: выведите массив на экран
+            Console.WriteLine(arrayString(a));
         }
         
-        static void FillArray()
+        static void FillArray(ref int[] arr, int a, int d)
         {
             // TODO: заполните массив соответствующими данными
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = a + d * i;
+            }
+        }
+
+        static public string arrayString(int[] a)
+        {
+            StringBuilder strb = new StringBuilder();
+            for (int i = 0; i < a.Length; i++)
+            {
+                strb.Append($"{a[i]} ");
+            }
+            return strb.ToString();
         }
     }
 }
